@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,700;1,400;1,700&family=Varela+Round&display=swap');
+
+body {
+    background-color: #BFECFE;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #00BADA;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-family: 'Varela Round';
+    font-size: 5vw;
+    margin-left: 10px;
+}
+.navbar-brand:hover{
+    color: #FBD016;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Varela Round';
+    font-size: 1vw;
+}
+
+.home {
+    color: aliceblue;
+    font-size: 2vw;
+}
+
+.about {
+    color: aliceblue;
+    font-size: 2vw;
+}
+
+/* IMAGE INTRO */
+.imagetro {
+    margin-left: 10px;
+    animation: bounce 3s infinite linear;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.wikatro {
+    font-size: 2.8vw;
+    font-family: 'Varela Round';
+    margin: 50px;
+}
+
+.section-two {
+    margin-top: 100px;
+      
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card-title {
+    font-family: 'Varela Round', cursive;
+    margin-top: -30px;
+}
+
+.card {
+    background-color: #0098D1;
+    border-color: #00C1CB;
+    border-radius: 25px;
+    color: white;
+    align-content: center;
+}
+
+.bag1 {
+    border-radius: 100px;
+}
+
+.bi-cart-check-fill {
+    margin-left: 300px;
+}
+
+footer {
+    margin-top: 28px;
+    background-color: white;
+    font-family: 'Varela Round';
+}
+
+.text-color {
+    color: #7E084D;
+}
+
+.row{
+   
+   margin-top: 100px
+}
+h1{
+    font-size: 8vw;
+    font-family: 'Varela Round'
+}
